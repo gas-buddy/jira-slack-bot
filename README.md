@@ -6,6 +6,7 @@ Then run:
 
 ``` 
 make install
+. ./env/bin/activate
 make build
 make create
 ```
