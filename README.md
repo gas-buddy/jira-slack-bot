@@ -14,3 +14,11 @@ make create
 To push changes run
 
 `make update`
+
+
+On AWS you will need to configure the following environment variables:
+```
+jiraEncryptedPassword -- your jira password, encrypt with IAM
+kmsEncryptedToken -- slack token, encrypt with IAM
+jiraUsername -- plaintext
+```
