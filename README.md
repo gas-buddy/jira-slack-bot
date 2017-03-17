@@ -19,6 +19,8 @@ To push changes run
 On AWS you will need to configure the following environment variables:
 ```
 jiraEncryptedPassword -- your jira password, encrypt with IAM
-kmsEncryptedToken -- slack token, encrypt with IAM
+kmsEncryptedToken -- slack slash command token, encrypt with IAM
 jiraUsername -- plaintext
 ```
+
+Finally add the lambda trigger URL in your slack slash command config
